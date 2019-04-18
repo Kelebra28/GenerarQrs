@@ -2,7 +2,7 @@
  qrcode = new QRCode("qrcode");
 
 function makeCode () {      
-    var elText = document.getElementById("text");
+    let elText = document.getElementById("text");
     
     if (!elText.value) {
         elText.focus();

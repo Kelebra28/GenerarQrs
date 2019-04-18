@@ -1,9 +1,33 @@
 .input{
-    width:100px;
-    height:100px;
+    width: 350px;
+   /*  height:100px; */
     margin-top:15px;
 }
 
 .codigoqr{
     width:80%;
+}
+
+.central{
+    width: 100vh;
+    height: 60vh;
+/*     border: solid 1px black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ingresa{
+/*     border: solid 1px green; */
+}
+
+.code{
+/*     border: solid 1px rebeccapurple; */
+}
+
+.padre{
+/*     border: solid 1px red; */
+    width: 100%;
 }

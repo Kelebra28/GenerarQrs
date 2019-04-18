@@ -1,15 +1,24 @@
 <!DOCTYPE html>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<link rel="stylesheet" href="estilos.css">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Bazzar Monte Verde</title>
+    <title>Bazar Monte Verde</title>
 </head>
 <body>
-        <input id="text" type="text" class="input" placeholder="Generar codigo QR"/><br/>
-        <div id="qrcode" class="codigoqr"></div>
-
+    <div class="central">
+        <div class="padre">
+        <div class="ingresa">
+            <input id="text" type="text" class="input" placeholder="Generar codigo QR"/><br/>
+        </div>
+    </div>
+        <div class="code">
+            <div id="qrcode" class="codigoqr"></div>
+        </div>
+    </div>
 
     
 <script type="text/javascript" src="./qrcodejs/jquery.min.js"></script>
